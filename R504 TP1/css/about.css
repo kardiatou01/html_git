@@ -4,3 +4,14 @@
     align-items: center;
     padding-bottom: 10px;
 }
+
+#aboutMe{
+    display: grid;
+    width: 95%;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: -webkit-max-content;
+    grid-template-rows: max-content;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+}
